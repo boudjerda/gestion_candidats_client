@@ -6,6 +6,7 @@ import UserForm from '../components/formAddUser';
  const AjoutCondidat = ({setAuth}) => {
   const deco =()=>{
     setAuth(false)
+    localStorage.removeItem('token');
   }
   return (
     <div className='addCondidat'>

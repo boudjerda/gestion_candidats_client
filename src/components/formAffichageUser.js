@@ -95,7 +95,7 @@ export default function BasicModal(props) {
             )}
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }} style={{display:"flex",flexDirection:"row"}}>
-            <strong>Télécharger le Passeport : </strong>
+            <strong>Télécharger la carte identité : </strong>
             {props.candidat?.passeport.data && (
               <img src="/download-pdf-icon.png" alt="Description de l'image" onClick={downloadPdfPasseport} style={{width:"30px",marginLeft:"10px"}}/>
             )}

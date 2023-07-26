@@ -49,6 +49,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
   };
 const deco =()=>{
   setAuth(false)
+  localStorage.removeItem('token');
 }
   
   return (
