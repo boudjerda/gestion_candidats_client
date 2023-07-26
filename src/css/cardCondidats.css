@@ -1,0 +1,22 @@
+.cardcondi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 310px;
+    transition: transform 0.3s
+}
+.cardcondi:hover {
+    transform: scale(1.01); /* Agrandissement du div lorsqu'il est survolé */
+}
+.cardContentcondi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.cardMediacondi{
+    width:60%;
+    height: 70%;
+    margin-top: 8px;
+}

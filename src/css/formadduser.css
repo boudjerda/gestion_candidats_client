@@ -1,0 +1,48 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.formContainer > .MuiTextField-root {
+  width: 100%;
+}
+
+.formContainer > .MuiButton-root {
+  margin-top: 20px;
+}
+
+
+
+.formContainer {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* Ajustez la largeur de l'étiquette selon vos besoins */
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajoutez une marge supérieure au besoin */
+}
+
+label {
+  font-weight: bold;
+}
+
+div.adduser {
+  margin-bottom: 20px;
+}

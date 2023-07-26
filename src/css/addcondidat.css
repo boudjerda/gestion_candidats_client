@@ -1,0 +1,53 @@
+.addCondidat{
+    height: 100%;
+    overflow: auto;
+    margin-bottom: 5px;
+   
+}
+.navLink{
+  margin-left: 1%;
+  display: flex;
+  flex-direction: row;
+}
+.addcondidathead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1%;
+  height: 70px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid white;
+  
+}
+.headit{
+    color: dodgerblue;
+}
+.archibaldtitle{
+    color: white;
+}
+.adduser{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.formContainerWrapper .MuiInputBase-input::placeholder {
+    color: white;
+  }
+  
+  .formContainerWrapper .MuiOutlinedInput-root {
+    border-color: white !important;
+  }
+  
+  .formContainerWrapper .MuiFormLabel-root {
+    color: white !important;
+  }
+  .formContainerWrapper .MuiOutlinedInput-root {
+    border-color: white !important;
+    border-width: 2px !important;
+  }
+  
+  .formContainerWrapper .MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+  }
+  .formContainerWrapper{
+    height: auto;
+  }

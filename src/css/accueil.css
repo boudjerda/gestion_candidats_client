@@ -1,0 +1,51 @@
+.accueil{
+    height: 100%;
+   
+}
+.headtitleglob{
+    margin-left: 1%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+  }
+  .accueilhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1%;
+  height: 70px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid white;
+  }
+.headit{
+    color: dodgerblue;
+}
+.archibaldtitleac{
+  color: white;
+}
+.space {
+    width: 10px;
+  }
+
+.navbarCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .navLink {
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    text-decoration: none;
+  }
+  
+  .navLink:active {
+    text-decoration: none;
+  }
+  
+  .navLink:focus {
+    text-decoration: none;
+  }

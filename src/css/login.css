@@ -1,0 +1,124 @@
+.login-page{
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: 7em auto; 
+    min-height: 450px;
+    height: 70%;
+    display: flex;
+    border-radius: 2% 2% 2% 2%;
+    box-shadow:  4px 4px 6px 2px dodgerblue;
+}
+.image-left{
+    width: 100%;
+    height: 100%;
+}
+.sub-container-right{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    background-color: #f0f5ff;
+    align-items: center;
+    justify-content: center;
+}
+.image-right{
+    width: 50%;
+    height: 30%;
+ 
+}
+.headitlogin{
+    color: dodgerblue;
+}
+.login-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 4px 2px dodgerblue;
+}
+.input-container{
+width: 90%;
+padding: 5px;
+}
+input {
+    width: 100%;
+    height: 40px;
+    border:none;
+    background-color: inherit;
+    border-bottom: 1px solid gray !important;
+    transition: all linear 0.1s;
+}
+:focus {
+    outline-style: none !important;
+    border:none !important;
+    border-bottom: 2px solid blue !important;
+
+}
+/* button{
+    width: 100%;
+    height: 40px;
+    background-color: #d9f7be;
+    border-color: #d9f7be;
+    border-radius: 5px;
+} */
+.forgot-passwprd{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+p{
+    color: darkolivegreen;
+    font-size: small;
+
+}
+.buttonCon {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .buttonCon:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+@media (min-width: 801px) {
+.container{
+    width: 75%;
+    min-width: 800px;
+}
+.sub-container-right{
+    border-radius: 0 2% 2% 0;
+}
+.sub-container-left{
+    flex: 3;
+    border-radius: 0 2% 2% 0;
+}
+}
+
+@media (max-width: 600px) {
+    .container {
+       width: 90%;
+    }
+    .sub-container-right{
+        border-radius: 0 2% 2% 0;
+    }
+    .sub-container-left{
+        display: none;
+    }
+}
