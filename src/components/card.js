@@ -12,12 +12,12 @@ export default function MediaCard(props) {
     <Card className='card'>
       <CardMedia
       className='cardMedia'
-        image= {props.title=="Liste de condidats"? "/listcondi.png":"/condidat1.png"}
+        image= {props.title==="Liste de condidats"? "/listcondi.png":"/condidat1.png"}
         title="green iguana"
       />
       <CardContent className='cardContent'>
         <Typography gutterBottom variant="h5" component="div">
-          {props.title=="Liste de condidats"? 
+          {props.title==="Liste de condidats"? 
           <nav  >
           <Link   to="/ListCondidats" style={{ padding: 5,textDecoration: "none" }}>
             Liste des candidats

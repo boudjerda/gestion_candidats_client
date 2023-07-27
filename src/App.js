@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route,Link,Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
 import ListCondidats from './pages/listCondidats';
 import React,{useState,useEffect} from "react";
 import Accueil from './pages/accueil';
@@ -7,7 +7,6 @@ import NoMatch from './pages/noMatch';
 import AjoutCondidat from './pages/ajoutCondidat';
 import Login from './pages/login';
 import axiosInstance from './axiosConfig'
-import {toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 function App() {
   const [isAuthenticated,setIsAuthenticated]=useState(true);

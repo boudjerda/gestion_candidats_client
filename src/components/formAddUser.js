@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { TextField, Button,Radio, RadioGroup, FormControlLabel  } from '@mui/material';
 import axiosInstance from '../axiosConfig'
@@ -24,7 +23,7 @@ function UserForm() {
     if (type === "file") {
       const file = files[0];
       let modifiedFile;
-      if(name=="cv"){
+      if(name==="cv"){
          modifiedFile = new File([file], "cv" + file.name, { type: file.type });
       }else{
          modifiedFile = new File([file], "passeport" + file.name, { type: file.type });

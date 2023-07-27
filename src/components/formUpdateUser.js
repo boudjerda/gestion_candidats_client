@@ -3,13 +3,10 @@ import Box from '@mui/material/Box';
 import { TextField, Button } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import axios from 'axios';
 import axiosInstance from '../axiosConfig'
 
 const style = {
   position: 'absolute',
-  top: '50%',
-  left: '50%',
   display: "flex",
   flexDirection: "column",
   gap: "5px", 

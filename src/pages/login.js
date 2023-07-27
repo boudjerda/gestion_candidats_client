@@ -1,8 +1,6 @@
-import React,{Fragment,useState} from "react";
-import {Link} from "react-router-dom";
+import React,{useState} from "react";
 import {toast,ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import axiosInstance from '../axiosConfig'
 import '../css/login.css';
 const Login = ({setAuth}) =>{
 
@@ -22,7 +20,7 @@ const Login = ({setAuth}) =>{
             
             try {const body = {email,password}
                 const response= await fetch("https://gestion-candidats-back.onrender.com/api/jwtAuth/login",
-                {method:"POST",
+                {method:"POST", 
                  headers:{"Content-Type": "application/json"}, 
                  body: JSON.stringify(body)
                  

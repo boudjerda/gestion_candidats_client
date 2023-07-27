@@ -22,10 +22,6 @@ export default function BasicModal(props) {
 
   const changeOption = () => setOpen(props.open);
 
-  const createPdfUrl = (pdfData) => {
-    const pdfBlob = new Blob([new Uint8Array(pdfData)], { type: 'application/pdf' });
-    return URL.createObjectURL(pdfBlob);
-  };
 
   const downloadPdf = () => {
     const pdfBlob = new Blob([new Uint8Array(props.candidat.cv.data)], { type: 'application/pdf' });

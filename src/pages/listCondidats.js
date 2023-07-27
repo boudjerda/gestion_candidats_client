@@ -29,8 +29,8 @@ import LogoutIcon from '@mui/icons-material/Logout';
   });
   }
   const filtredName = (name) => {
-    const filteredCandidats = selectedItem == "nom" ?  candidats.filter((candidat) => candidat.nom.includes(name)):( selectedItem == "profil" ? candidats.filter((candidat) => candidat.profil.includes(name)):candidats.filter((candidat) => candidat.prenom.includes(name)));
-    name? setCandidats(filteredCandidats):setCandidats(candidats1)
+    const filteredCandidats = selectedItem === "nom" ?  candidats.filter((candidat) => candidat.nom.includes(name)):( selectedItem === "profil" ? candidats.filter((candidat) => candidat.profil.includes(name)):candidats.filter((candidat) => candidat.prenom.includes(name)));
+    name? setCandidats(filteredCandidats):setCandidats(candidats1) 
 
   };
   
